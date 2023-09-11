@@ -1,5 +1,4 @@
-\let\negmedspace\undefined
-\let\negthickspace\undefined
+\iffalse
 \documentclass[journal,12pt,onecolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
@@ -96,7 +95,8 @@
 
 \textbf{Question 11.16.3.35}\\
 The probability of an occurrence of event A is .7 and that of the occurrence of event B is .3 and the probability of occurrence of both is .4.Is this statement true or false?\\
-\solution\\
+\fi
+\\\solution\\
 Given,
 \begin{align}
 \pr{A} = 0.7\\
@@ -105,7 +105,7 @@ Given,
 \end{align}        
 Consider,
 \begin{align}
-\pr{A/B} = \frac{\pr{AB}}{\pr{B}}
+\pr{A|B} = \frac{\pr{AB}}{\pr{B}}
 \end{align}
 Now, we know that 
 \begin{align}
